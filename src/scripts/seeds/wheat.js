@@ -1,3 +1,3 @@
-const createWheat = () => {
+export const createWheat = () => {
     
 }

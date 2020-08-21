@@ -1,3 +1,2 @@
-const createAsparagus = () => {
-    
+export const createAsparagus = () => {
 }

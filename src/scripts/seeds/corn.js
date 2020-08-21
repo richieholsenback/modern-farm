@@ -1,3 +1,3 @@
-const createCorn = () => {
+export const createCorn = () => {
     
 }

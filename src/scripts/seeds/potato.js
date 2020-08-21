@@ -1,3 +1,3 @@
-const createPotato = () => {
+export const createPotato = () => {
     
 }
