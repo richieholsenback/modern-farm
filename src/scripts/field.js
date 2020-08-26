@@ -1,11 +1,13 @@
-const { createCorn } = require("./seeds/corn");
+// const { createCorn } = require("./seeds/corn");
 
 const field = [];
 
-const addPlant = (seed) => {
-    return field.push
+export const addPlant = (seed) => {
+    return field.push(seed);
 }
 
-const usePlants = addPlant()
+export const usePlants = () => {
+    return field;
+}
 
-console.log(addPlant(corn))
+console.log(addPlant())
